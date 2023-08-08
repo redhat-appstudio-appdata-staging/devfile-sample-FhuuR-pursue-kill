@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rlau-tenant/devfile-sample/devfile-sample@sha256:0b1624ceb76a721299b3b564a548e6450706282a9b92e8318bc0413be785eac7
+      - image: quay.io/redhat-user-workloads-stage/rlau-tenant/devfile-sample/devfile-sample@sha256:dfa3021ede8c832de7749eb29a1e02aa732c86fc3a873460de1fd1f2686be947
         name: my-nodejs
         ports:
         - containerPort: 3001
